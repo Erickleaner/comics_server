@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="server.mapper.CatalogMapper">
+    <select id="getCatalogById" resultType="server.model.Catalog">
+        SELECT * FROM catalog WHERE catalog_id = #{id}
+    </select>
+    <select id="getAllCatalogs" resultType="server.model.Catalog">
+        SELECT * FROM catalog ORDER BY `order` ASC
+    </select>
+    <select id="getTotal" resultType="int">
+        SELECT COUNT(*) AS catalogCount FROM catalog
+    </select>
+</mapper>

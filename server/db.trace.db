@@ -1,0 +1,6 @@
+2023-06-04 15:26:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMICS" not found (this database is empty); SQL statement:
+SELECT * FROM PUBLIC.COMICS WHERE COMICS_ID = ? [42104-210]
+2023-06-04 15:26:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMICS" not found (this database is empty); SQL statement:
+SELECT * FROM PUBLIC.COMICS WHERE COMICS_ID = ? [42104-210]

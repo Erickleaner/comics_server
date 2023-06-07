@@ -1,0 +1,4 @@
+emulator.exe -avd Pixel_2_API_29 -dns-server 8.8.8.8
+emulator.exe -avd Pixel_2_API_29 -dns-server 10.1.88.18
+D:\SdkAndroid\emulator
+//数据流量都打开？
